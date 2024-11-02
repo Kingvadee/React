@@ -1,22 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome To Ton Of Gem💎</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is your number 1 platform for everything exciting!
+          From learning how to monetize your time on the internet to freelancing and much more!
+          Stick around and follow me on all social media platforms where I will be dropping helpful content.
+          <a href="https://linktr.ee/davido" target="_blank" rel="noopener noreferrer">Linktree</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="yourTwitterHandle"
+          options={{ height: 400 }}
+        />
       </header>
     </div>
   );
