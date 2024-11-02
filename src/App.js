@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import Blog from './Blog';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           screenName="yourTwitterHandle"
           options={{ height: 400 }}
         />
+        <Blog />
       </header>
     </div>
   );
