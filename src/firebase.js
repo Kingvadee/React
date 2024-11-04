@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyCfKQjT2EmDH6eJTAED73zz151YhmL_Aus",
+  authDomain: "tonofgem.firebaseapp.com",
+  projectId: "tonofgem",
+  storageBucket: "tonofgem.firebasestorage.app",
+  messagingSenderId: "1041276227847",
+  appId: "1:1041276227847:web:96bedceeb798fcd5cd75a2",
+  measurementId: "G-9SS5GT7XVM"
 };
 
 const app = initializeApp(firebaseConfig);
