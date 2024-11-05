@@ -4,9 +4,9 @@ import { signOut } from "firebase/auth";
 import { auth } from './firebase';
 import SignUp from './SignUp';
 import SignIn from './SignIn';
-import Header from './components/Header';
+import Header from './components/feader';
 import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 const App = () => {
   const handleSignOut = async () => {
