@@ -7,9 +7,9 @@ const Footer = () => {
     <footer>
       <p>&copy; 2023 Your Website. All rights reserved.</p>
       <div className="social-media">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
+        <a href="https://youtube.com/@tonofgem">Youtube</a>
+        <a href="https://x.com/tonOfGem">Twitter</a>
+        <a href="https://www.tiktok.com/@tonofgem">TikTok</a>
       </div>
     </footer>
   );
