@@ -5,7 +5,7 @@ import './MainContent.css';
 const MainContent = () => {
   return (
     <main>
-      <section id="HomePage">
+      <section id="homepage">
         <h1>Welcome to Your TonOfGem</h1>
         <p>TonOfGem is a community that encourages individuals
             to elevate and reach the pinnacle of self mastery,
